@@ -128,20 +128,20 @@ In-Game add this macro
 
 ### Warlock Offensive Pet Abilities
 If you have a Felhunter:<br />
-    If Control is pressed it will cast ```Devour Magic``` on the pet<br />
-    If Shift is pressed it will cast ```Devour Magic``` on your target<br />
-    else it will cast ```Spell Lock``` on your target<br />
+   &nbsp; If Control is pressed it will cast ```Devour Magic``` on the pet<br />
+   &nbsp; If Shift is pressed it will cast ```Devour Magic``` on your target<br />
+   &nbsp; else it will cast ```Spell Lock``` on your target<br />
 If you have a Succubus:<br />
-    If Control is pressed it will toggle on/off ```Lash of Pain```<br />
-    If Shift is presser it will toggle on/off ```Seduction```<br />
-    else it will cast ```Seduction```<br />
+   &nbsp; If Control is pressed it will toggle on/off ```Lash of Pain```<br />
+   &nbsp; If Shift is presser it will toggle on/off ```Seduction```<br />
+   &nbsp; else it will cast ```Seduction```<br />
 If you have a Voidwalker:<br />
-    If Control is pressed it will cast ```Consume Shadows```<br />
-    If Shift is pressed it will cast ```Suffering```<br />
-    else it will toggle on/off ```Torment```<br />
+   &nbsp; If Control is pressed it will cast ```Consume Shadows```<br />
+   &nbsp; If Shift is pressed it will cast ```Suffering```<br />
+   &nbsp; else it will toggle on/off ```Torment```<br />
 If you have an Imp:<br />
-    If your target is friendly it will cast ```Fire Shield```<br />
-    else it will cast ```Firebolt```<br />
+   &nbsp; If your target is friendly it will cast ```Fire Shield```<br />
+   &nbsp; else it will cast ```Firebolt```<br />
 ```
 function WarlockPetOff()
     if UnitCreatureFamily('pet') == "Felhunter" then
