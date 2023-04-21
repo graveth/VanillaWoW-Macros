@@ -60,7 +60,7 @@ Example:
 /run StopAttack(12)
 ```
 
-## Get Spell ID by name
+### Get Spell ID by name
 Some macro commands like `GetSpellCooldown` require the ID of spell you want to use, this is how you get the spell ID
 ```
 function GetSpell_ID(spellname, spellrank)
