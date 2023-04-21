@@ -104,10 +104,10 @@ end
 ```
 
 ### Warlock Defensive Pet Abilities
-If you have a Felhunter it will cast ```Devour Magic``` on the player
-If you have a Succubus it will toggle autocast for ```Lesser Invisibility```
-If you have a Voidwalker it will cast ```Sacrifice```
-If you have an Imp it will cast ```Fire Shield``` on the player
+If you have a Felhunter it will cast ```Devour Magic``` on the player<br />
+If you have a Succubus it will toggle autocast for ```Lesser Invisibility```<br />
+If you have a Voidwalker it will cast ```Sacrifice```<br />
+If you have an Imp it will cast ```Fire Shield``` on the player<br />
 ```
 function WarlockPetDef()
     if UnitCreatureFamily('pet') == "Felhunter" then
@@ -127,21 +127,21 @@ In-Game add this macro
 ```
 
 ### Warlock Offensive Pet Abilities
-If you have a Felhunter:
-    If Control is pressed it will cast ```Devour Magic``` on the pet
-    If Shift is pressed it will cast ```Devour Magic``` on your target
-    else it will cast ```Spell Lock``` on your target
-If you have a Succubus:
-    If Control is pressed it will toggle on/off ```Lash of Pain```
-    If Shift is presser it will toggle on/off ```Seduction```
-    else it will cast ```Seduction```
-If you have a Voidwalker:
-    If Control is pressed it will cast ```Consume Shadows```
-    If Shift is pressed it will cast ```Suffering```
-    else it will toggle on/off ```Torment```
-If you have an Imp:
-    If your target is friendly it will cast ```Fire Shield```
-    else it will cast ```Firebolt```
+If you have a Felhunter:<br />
+    If Control is pressed it will cast ```Devour Magic``` on the pet<br />
+    If Shift is pressed it will cast ```Devour Magic``` on your target<br />
+    else it will cast ```Spell Lock``` on your target<br />
+If you have a Succubus:<br />
+    If Control is pressed it will toggle on/off ```Lash of Pain```<br />
+    If Shift is presser it will toggle on/off ```Seduction```<br />
+    else it will cast ```Seduction```<br />
+If you have a Voidwalker:<br />
+    If Control is pressed it will cast ```Consume Shadows```<br />
+    If Shift is pressed it will cast ```Suffering```<br />
+    else it will toggle on/off ```Torment```<br />
+If you have an Imp:<br />
+    If your target is friendly it will cast ```Fire Shield```<br />
+    else it will cast ```Firebolt```<br />
 ```
 function WarlockPetOff()
     if UnitCreatureFamily('pet') == "Felhunter" then
