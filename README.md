@@ -177,8 +177,10 @@ function WarlockPetOff()
             CastSpellByName("Fire Shield")
         else
             PetSpellToggle("Firebolt")
+        end
     end
 end
+```
 In-Game add this macro
 ```
 /run  WarlockPetOff()
